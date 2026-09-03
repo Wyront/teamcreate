@@ -8,7 +8,7 @@ Collaborative editing plugin for S&box — real-time file sync between participa
 2. Clone this repository:
 ```bash
 cd Libraries
-git clone https://github.com/Wyront/sbox_team_create.git
+git clone https://github.com/Wyront/teamcreate.git
 ```
 3. Restart S&box editor
 
