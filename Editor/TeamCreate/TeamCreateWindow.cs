@@ -770,7 +770,7 @@ public sealed class TeamCreateWindow : Widget
 	private static Color RandomColor()
 	{
 		var colors = new[] { Color.Red, Color.Blue, Color.Green, Color.Yellow, Color.Cyan, Color.Magenta, Color.Orange };
-		return colors[Environment.TickCount % colors.Length];
+		return colors[Math.Abs( Environment.TickCount ) % colors.Length];
 	}
 
 	private static string ColorToHex( Color c )
