@@ -1,0 +1,22 @@
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# S&box
+.sbox/
+
+# Published hub (too large for git)
+Hub/publish/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
