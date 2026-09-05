@@ -1,0 +1,19 @@
+[01:07:51] Team Create init (log: A:\s&box projects\edu\edu\Libraries\teamcreate\logs\tc-20260905-010751.log)
+[01:08:14] Connect 127.0.0.1:4877...
+[01:08:14] Файловый синк: A:\s&box projects\edu\edu
+[01:08:14] SceneDelta: watching A:\s&box projects\edu\edu\Assets\scenes + prefabs
+[01:08:14] Password hash: ***
+[01:08:14] Подключение к 127.0.0.1:4877...
+[01:08:14] Color taken, switched to random
+[01:08:14] Подключено!
+[01:08:14] Peers in room: 2
+[01:08:14] Live watch: запущен
+[01:08:14] Отправляю состояние проекта пирам...
+[01:08:14] [in] file: Code/Assembly.cs (92 bytes)
+[01:08:14] [in] file: ProjectSettings/Platform.config (244 bytes)
+[01:08:14] [in] file: Editor/Assembly.cs (114 bytes)
+[01:08:14] [in] file: ProjectSettings/Collision.config (649 bytes)
+[01:08:14] [in] file: .gitignore (437 bytes)
+[01:08:14] [in] file: ProjectSettings/Input.config (5038 bytes)
+[01:08:14] Sync complete
+[01:08:15] [live] сессия есть, но сцена не отслеживается (session=Editor.SceneEditorSession)

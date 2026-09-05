@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -7,6 +7,31 @@
 		<Nullable>enable</Nullable>
 		<AssemblyName>TeamCreateHub</AssemblyName>
 		<RootNamespace>TeamCreate.Hub</RootNamespace>
+		<NoWarn>NU1701</NoWarn>
+		<!-- Single-file self-contained distribution -->
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PublishTrimmed>true</PublishTrimmed>
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Open.Nat" Version="2.1.0" />
+		<PackageReference Include="Facepunch.Steamworks" Version="2.3.3" />
+	</ItemGroup>
+
+	<!-- steam_api64.dll ships in the package's legacy content/ folder, which
+	     PackageReference ignores — link it explicitly so it lands next to the
+	     exe on build AND publish (incl. single-file extraction).
+	     $(USERPROFILE) keeps it machine-independent; wildcard tolerates upgrades. -->
+	<ItemGroup>
+		<Content Include="$(USERPROFILE)\.nuget\packages\facepunch.steamworks\*\content\steam_api64.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+			<Link>steam_api64.dll</Link>
+		</Content>
+	</ItemGroup>
 
 </Project>

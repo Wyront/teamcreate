@@ -20,6 +20,14 @@ public sealed class Message
 	[JsonPropertyName( "rot" )] public float[]? Rot { get; set; }
 	[JsonPropertyName( "scale" )] public float[]? Scale { get; set; }
 	[JsonPropertyName( "reason" )] public string? Reason { get; set; }
+	// Protocol v2: chunked files, presence, scene locks
+	[JsonPropertyName( "chunkIndex" )] public int? ChunkIndex { get; set; }
+	[JsonPropertyName( "chunkTotal" )] public int? ChunkTotal { get; set; }
+	[JsonPropertyName( "fileSize" )] public long? FileSize { get; set; }
+	[JsonPropertyName( "fileHash" )] public string? FileHash { get; set; }
+	[JsonPropertyName( "final" )] public bool? Final { get; set; }
+	[JsonPropertyName( "scene" )] public string? Scene { get; set; }
+	[JsonPropertyName( "locks" )] public List<SceneLockInfo>? Locks { get; set; }
 
 	public static readonly JsonSerializerOptions JsonOptions = new()
 	{
@@ -40,4 +48,11 @@ public sealed class PeerInfo
 	[JsonPropertyName( "id" )] public string Id { get; set; } = "";
 	[JsonPropertyName( "name" )] public string Name { get; set; } = "";
 	[JsonPropertyName( "color" )] public string Color { get; set; } = "#ffffff";
+}
+
+public sealed class SceneLockInfo
+{
+	[JsonPropertyName( "path" )] public string Path { get; set; } = "";
+	[JsonPropertyName( "owner" )] public string Owner { get; set; } = "";
+	[JsonPropertyName( "ownerName" )] public string OwnerName { get; set; } = "";
 }

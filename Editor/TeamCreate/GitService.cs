@@ -32,22 +32,6 @@ public static class GitService
 		return output.Trim();
 	}
 
-	public static async Task InitLocalAsync( string projectRoot )
-	{
-		if ( !Directory.Exists( Path.Combine( projectRoot, ".git" ) ) )
-		{
-			await RunAsync( projectRoot, "init" );
-
-			await File.WriteAllTextAsync( Path.Combine( projectRoot, ".gitignore" ),
-				".vs/\n.vscode/\nobj/\nbin/\nnode_modules/\n*.user\n*.csproj.user\nLibraries/teamcreate/\n.sbox/\n" );
-			OnLog?.Invoke( "Created .gitignore" );
-		}
-
-		await RunAsync( projectRoot, "add -A", true );
-		await RunAsync( projectRoot, "commit -m \"Initial commit\"" );
-		OnLog?.Invoke( "Local repository initialized!" );
-	}
-
 	public static async Task InitRemoteAsync( string projectRoot, string remoteUrl )
 	{
 		if ( !Directory.Exists( Path.Combine( projectRoot, ".git" ) ) )
@@ -73,23 +57,8 @@ public static class GitService
 		else
 			OnLog?.Invoke( "No new changes to commit" );
 
-		var pushResult = await RunAsync( projectRoot, "push -u origin master --force" );
+		var pushResult = await RunAsync( projectRoot, "push -u origin HEAD --force" );
 		OnLog?.Invoke( $"Push result: {pushResult}" );
-	}
-
-	public static async Task CommitAsync( string rootPath, string message )
-	{
-		await RunAsync( rootPath, "add -A", true );
-
-		var status = await RunAsync( rootPath, "status --porcelain", true );
-		if ( string.IsNullOrWhiteSpace( status ) )
-		{
-			OnLog?.Invoke( "No changes to commit" );
-			return;
-		}
-
-		await RunAsync( rootPath, $"commit -m \"{EscapeArg( message )}\"" );
-		OnLog?.Invoke( "Committed!" );
 	}
 
 	public static async Task CommitAndPushAsync( string rootPath, string message )
@@ -107,60 +76,27 @@ public static class GitService
 			OnLog?.Invoke( "No changes to commit, trying push..." );
 		}
 
-		var pullResult = await RunAsync( rootPath, "pull --rebase origin master" );
+		var pullResult = await RunAsync( rootPath, "pull --rebase" );
 		OnLog?.Invoke( $"Pull: {pullResult}" );
 
-		var pushResult = await RunAsync( rootPath, "push -u origin master" );
+		var pushResult = await RunAsync( rootPath, "push -u origin HEAD" );
 		OnLog?.Invoke( $"Push result: {pushResult}" );
-	}
-
-	public static async Task PullLocalAsync( string rootPath )
-	{
-		await RunAsync( rootPath, "fetch" );
-		var result = await RunAsync( rootPath, "reset --hard @{u}" );
-		OnLog?.Invoke( $"Pull local result: {result}" );
 	}
 
 	public static async Task PullRemoteAsync( string rootPath )
 	{
 		await RunAsync( rootPath, "fetch origin" );
-		var result = await RunAsync( rootPath, "reset --hard origin/master" );
+		var branch = await CurrentBranchAsync( rootPath );
+		var result = await RunAsync( rootPath, $"reset --hard origin/{branch}" );
 		OnLog?.Invoke( $"Pull remote result: {result}" );
 	}
 
-	private static string EscapeArg( string s ) => s.Replace( "\"", "\\\"" );
-
-	public static int CopyProjectFiles( string source, string target )
+	private static async Task<string> CurrentBranchAsync( string rootPath )
 	{
-		int count = 0;
-
-		foreach ( var file in Directory.GetFiles( source, "*", SearchOption.AllDirectories ) )
-		{
-			var rel = Path.GetRelativePath( source, file );
-			var parts = rel.Split( Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar );
-
-			if ( parts.Any( p => p.Equals( ".git", StringComparison.OrdinalIgnoreCase ) ||
-								 p.Equals( ".vs", StringComparison.OrdinalIgnoreCase ) ||
-								 p.Equals( ".vscode", StringComparison.OrdinalIgnoreCase ) ||
-								 p.Equals( "obj", StringComparison.OrdinalIgnoreCase ) ||
-								 p.Equals( "bin", StringComparison.OrdinalIgnoreCase ) ||
-								 p.Equals( "node_modules", StringComparison.OrdinalIgnoreCase ) ||
-								 p.EndsWith( ".slnx", StringComparison.OrdinalIgnoreCase ) ) )
-				continue;
-
-			if ( parts.Length > 1 && parts[0].Equals( "Libraries", StringComparison.OrdinalIgnoreCase ) )
-			{
-				if ( parts.Length > 2 && parts[1].Equals( "teamcreate", StringComparison.OrdinalIgnoreCase ) )
-					continue;
-			}
-
-			var dest = Path.Combine( target, rel );
-			var dir = Path.GetDirectoryName( dest );
-			if ( dir != null ) Directory.CreateDirectory( dir );
-			File.Copy( file, dest, true );
-			count++;
-		}
-
-		return count;
+		var branch = (await RunAsync( rootPath, "branch --show-current", true )).Trim();
+		if ( string.IsNullOrWhiteSpace( branch ) ) return "master";
+		return branch.Split( '\n', '\r' )[0].Trim();
 	}
+
+	private static string EscapeArg( string s ) => s.Replace( "\"", "\\\"" );
 }

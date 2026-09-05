@@ -12,8 +12,8 @@
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 		<DefineConstants>SANDBOX</DefineConstants>
 		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
-		<OutputPath>../../../../../SteamLibrary/steamapps/common/sbox 590830/.vs/output/</OutputPath>
-		<DocumentationFile>../../../../../SteamLibrary/steamapps/common/sbox 590830/.vs/output/teamcreate.xml</DocumentationFile>
+		<OutputPath>../../../../../../SteamLibrary/steamapps/common/sbox 590830/.vs/output/</OutputPath>
+		<DocumentationFile>../../../../../../SteamLibrary/steamapps/common/sbox 590830/.vs/output/teamcreate.xml</DocumentationFile>
 		<RootNamespace>Sandbox</RootNamespace>
 		<Nullable>disable</Nullable>
 	</PropertyGroup>
@@ -25,15 +25,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Analyzer Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.CodeUpgrader.dll"/> 
-		<Analyzer Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Generator.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.System.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Engine.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Filesystem.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Reflection.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Mounting.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Microsoft.AspNetCore.Components.dll"/> 
-		<Reference Include="../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Tools.dll"/> 
+		<Analyzer Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.CodeUpgrader.dll"/> 
+		<Analyzer Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Generator.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.System.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Engine.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Filesystem.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Reflection.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Mounting.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Microsoft.AspNetCore.Components.dll"/> 
+		<Reference Include="../../../../../../SteamLibrary/steamapps/common/sbox 590830/bin/managed/Sandbox.Tools.dll"/> 
 	</ItemGroup>
 
 </Project>

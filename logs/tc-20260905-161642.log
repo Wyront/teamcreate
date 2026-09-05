@@ -1,0 +1,118 @@
+[16:16:42] Team Create init (log: A:\s&box projects\test\test\Libraries\teamcreate\logs\tc-20260905-161642.log)
+[16:16:54] Connect 127.0.0.1:4877...
+[16:16:54] Файловый синк: A:\s&box projects\test\test
+[16:16:54] SceneDelta: watching A:\s&box projects\test\test\Assets\scenes + prefabs (tracked: 1)
+[16:16:54] Password hash: ***
+[16:16:54] Подключение к 127.0.0.1:4877...
+[16:16:54] Подключено!
+[16:16:54] Peers in room: 2
+[16:16:54] Live watch: запущен
+[16:16:54] [delta] resync: baseline сброшен
+[16:16:54] Отправляю состояние проекта пирам...
+[16:16:54] [in] file: Code/Assembly.cs (92 bytes)
+[16:16:54] [in] file: ProjectSettings/Platform.config (244 bytes)
+[16:16:54] [in] file: Editor/Assembly.cs (114 bytes)
+[16:16:54] [in] file: ProjectSettings/Collision.config (649 bytes)
+[16:16:54] [in] file: .gitignore (437 bytes)
+[16:16:54] [in] file: ProjectSettings/Input.config (5038 bytes)
+[16:16:54] Sync complete
+[16:16:54] [in] snapshot: Assets/scenes/minimal.scene (82338 байт)
+[16:16:55] [in] сцена обновлена: Assets/scenes/minimal.scene
+[16:16:55] [out] snapshot: Assets/scenes/minimal.scene (82338 байт)
+[16:16:55] [live] слежу за Assets/scenes/minimal.scene
+[16:16:56] [out] patch minimal.scene: +0 >0 ~0 -0
+[16:16:58] [delta] тик 300, tracked: 1, files seen: 1
+[16:17:01] [delta] тик 600, tracked: 1, files seen: 1
+[16:17:04] [delta] тик 900, tracked: 1, files seen: 1
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:07] [delta] тик 1200, tracked: 1, files seen: 1
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:12] [delta] тик 1500, tracked: 1, files seen: 1
+[16:17:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:13] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:13] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:19] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:26] [delta] тик 1800, tracked: 1, files seen: 1
+[16:17:26] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:40] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:41] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:42] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:17:42] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:17:42] [live] MainThread.Queue не отвечает (UI-поток занят?)
+[16:18:15] [in-live] minimal.scene: 3 изменений в живой сцене

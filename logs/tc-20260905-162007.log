@@ -1,0 +1,634 @@
+[16:20:07] Team Create init (log: A:\s&box projects\test\test\Libraries\teamcreate\logs\tc-20260905-162007.log)
+[16:20:12] Connect 127.0.0.1:4877...
+[16:20:12] Файловый синк: A:\s&box projects\test\test
+[16:20:12] SceneDelta: watching A:\s&box projects\test\test\Assets\scenes + prefabs (tracked: 1)
+[16:20:12] Password hash: ***
+[16:20:12] Подключение к 127.0.0.1:4877...
+[16:20:12] Color taken, switched to random
+[16:20:12] Подключено!
+[16:20:12] Peers in room: 2
+[16:20:12] Live watch: запущен
+[16:20:12] [delta] resync: baseline сброшен
+[16:20:12] Отправляю состояние проекта пирам...
+[16:20:12] [in] file: Code/Assembly.cs (92 bytes)
+[16:20:12] [in] file: ProjectSettings/Platform.config (244 bytes)
+[16:20:12] [in] file: Editor/Assembly.cs (114 bytes)
+[16:20:12] [in] file: ProjectSettings/Collision.config (649 bytes)
+[16:20:12] [in] file: .gitignore (437 bytes)
+[16:20:12] [in] file: ProjectSettings/Input.config (5038 bytes)
+[16:20:12] Sync complete
+[16:20:12] [in] snapshot: Assets/scenes/minimal.scene (82338 байт)
+[16:20:12] [in] сцена обновлена: Assets/scenes/minimal.scene
+[16:20:12] [out] snapshot: Assets/scenes/minimal.scene (82338 байт)
+[16:20:13] [live] слежу за Assets/scenes/minimal.scene
+[16:20:14] [out] patch minimal.scene: +0 >0 ~0 -0
+[16:20:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:16] [delta] тик 300, tracked: 1, files seen: 1
+[16:20:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:20] [delta] тик 600, tracked: 1, files seen: 1
+[16:20:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:22] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:22] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:23] [delta] тик 900, tracked: 1, files seen: 1
+[16:20:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:24] [in-live] minimal.scene: 1 изменений в живой сцене
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:26] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:26] [in-live] minimal.scene: 1 изменений в живой сцене
+[16:20:26] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [in-live] minimal.scene: 1 изменений в живой сцене
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [delta] тик 1200, tracked: 1, files seen: 1
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:30] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:30] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:30] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:31] [delta] тик 1500, tracked: 1, files seen: 1
+[16:20:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:34] [delta] тик 1800, tracked: 1, files seen: 1
+[16:20:38] [delta] тик 2100, tracked: 1, files seen: 1
+[16:20:38] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:38] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:38] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:41] [delta] тик 2400, tracked: 1, files seen: 1
+[16:20:44] [delta] тик 2700, tracked: 1, files seen: 1
+[16:20:47] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:47] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:47] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:47] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:47] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:48] [delta] тик 3000, tracked: 1, files seen: 1
+[16:20:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:49] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:49] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:49] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:51] [delta] тик 3300, tracked: 1, files seen: 1
+[16:20:54] [delta] тик 3600, tracked: 1, files seen: 1
+[16:20:57] [delta] тик 3900, tracked: 1, files seen: 1
+[16:20:58] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:58] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:58] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:58] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:58] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:58] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:59] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:59] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:59] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:59] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:20:59] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:20:59] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:01] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:01] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:01] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:01] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:01] [in-live] minimal.scene: 1 изменений в живой сцене
+[16:21:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:02] [delta] тик 4200, tracked: 1, files seen: 1
+[16:21:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:06] [delta] тик 4500, tracked: 1, files seen: 1
+[16:21:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:11] [delta] тик 4800, tracked: 1, files seen: 1
+[16:21:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:21:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:21:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:32] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:32] [live] MainThread.Queue не отвечает (UI-поток занят?)
+[16:22:32] [delta] тик 5100, tracked: 1, files seen: 1
+[16:22:32] [delta] тик 5400, tracked: 1, files seen: 1
+[16:22:32] [delta] тик 5700, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 6000, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 6300, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 6600, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 6900, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 7200, tracked: 1, files seen: 1
+[16:22:33] [delta] тик 7500, tracked: 1, files seen: 1
+[16:22:34] [delta] тик 7800, tracked: 1, files seen: 1
+[16:22:34] [delta] тик 8100, tracked: 1, files seen: 1
+[16:22:34] [delta] тик 8400, tracked: 1, files seen: 1
+[16:22:34] [delta] тик 8700, tracked: 1, files seen: 1
+[16:22:34] [delta] тик 9000, tracked: 1, files seen: 1
+[16:22:35] [delta] тик 9300, tracked: 1, files seen: 1
+[16:22:35] [delta] тик 9600, tracked: 1, files seen: 1
+[16:22:35] [delta] тик 9900, tracked: 1, files seen: 1
+[16:22:35] [delta] тик 10200, tracked: 1, files seen: 1
+[16:22:35] [delta] тик 10500, tracked: 1, files seen: 1
+[16:22:36] [delta] тик 10800, tracked: 1, files seen: 1
+[16:22:36] [delta] тик 11100, tracked: 1, files seen: 1
+[16:22:36] [delta] тик 11400, tracked: 1, files seen: 1
+[16:22:36] [delta] тик 11700, tracked: 1, files seen: 1
+[16:22:36] [delta] тик 12000, tracked: 1, files seen: 1
+[16:22:37] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:37] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:37] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:37] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:37] [delta] тик 12300, tracked: 1, files seen: 1
+[16:22:37] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:38] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:38] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:38] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:38] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:39] [delta] тик 12600, tracked: 1, files seen: 1
+[16:22:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:39] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:39] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:40] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:40] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:40] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:40] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:40] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:40] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:40] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:41] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:41] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:41] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:41] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:41] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:42] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:42] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:42] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:42] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:42] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:42] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:42] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:43] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:43] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:43] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:43] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:43] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:43] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:43] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:44] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:47] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:47] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:48] [delta] тик 12900, tracked: 1, files seen: 1
+[16:22:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:49] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:49] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:49] [delta] тик 13200, tracked: 1, files seen: 1
+[16:22:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:50] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:50] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:50] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:50] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:51] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:51] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:51] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:51] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:51] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:51] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:52] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:52] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:52] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:52] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:52] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:52] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:53] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:53] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:53] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:53] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:53] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:54] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:54] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:54] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:54] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:54] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:54] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:54] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:55] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:55] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:59] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:59] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:22:59] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:22:59] [delta] тик 13500, tracked: 1, files seen: 1
+[16:22:59] [delta] тик 13800, tracked: 1, files seen: 1
+[16:22:59] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:00] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:00] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:01] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:01] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:01] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:01] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:01] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:01] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:02] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:02] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:03] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:03] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:04] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:04] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:05] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:05] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:05] [delta] тик 14100, tracked: 1, files seen: 1
+[16:23:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:06] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:06] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:07] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:07] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:08] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:08] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:09] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:09] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:10] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:10] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:11] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:11] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:12] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:12] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:12] [delta] тик 14400, tracked: 1, files seen: 1
+[16:23:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:13] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:13] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:13] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:14] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:14] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:15] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:15] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:16] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:16] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:17] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:17] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:18] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:18] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:19] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:19] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:19] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:19] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:20] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:20] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:20] [delta] тик 14700, tracked: 1, files seen: 1
+[16:23:20] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:20] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:21] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:21] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:21] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:21] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:21] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:22] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:22] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:22] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:23] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:23] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:24] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:24] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:25] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:25] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:26] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:26] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:26] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:27] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:27] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:27] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:27] [delta] тик 15000, tracked: 1, files seen: 1
+[16:23:27] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:27] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:28] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:28] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:29] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:29] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:30] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:30] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:30] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:31] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:31] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:32] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:32] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:32] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:32] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:33] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:33] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:33] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:46] [delta] тик 15300, tracked: 1, files seen: 1
+[16:23:46] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:47] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:47] [delta] тик 15600, tracked: 1, files seen: 1
+[16:23:47] [delta] тик 15900, tracked: 1, files seen: 1
+[16:23:48] [delta] тик 16200, tracked: 1, files seen: 1
+[16:23:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:48] [delta] тик 16500, tracked: 1, files seen: 1
+[16:23:48] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:48] [in-live] minimal.scene: 3 изменений в живой сцене
+[16:23:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:49] [out] patch minimal.scene: +0 >0 ~3 -0
+[16:23:52] [delta] тик 16800, tracked: 1, files seen: 1
+[16:23:56] [delta] тик 17100, tracked: 1, files seen: 1
+[16:24:01] [delta] тик 17400, tracked: 1, files seen: 1
+[16:24:05] [delta] тик 17700, tracked: 1, files seen: 1

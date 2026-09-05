@@ -1,0 +1,21 @@
+[01:47:56] Team Create init (log: A:\s&box projects\test\test\Libraries\teamcreate\logs\tc-20260906-014756.log)
+[01:48:09] Connect 127.0.0.1:4877...
+[01:48:09] Файловый синк: A:\s&box projects\test\test
+[01:48:09] SceneDelta: watching A:\s&box projects\test\test\Assets\scenes + prefabs (tracked: 1)
+[01:48:09] Password hash: ***
+[01:48:09] Подключение к 127.0.0.1:4877...
+[01:48:09] Подключено!
+[01:48:09] Peers in room: 1
+[01:48:09] Live watch: запущен
+[01:48:09] [delta] resync: baseline сброшен
+[01:48:09] Отправляю состояние проекта пирам...
+[01:48:09] Sync complete
+[01:48:09] [out] snapshot: Assets/scenes/minimal.scene (82338 байт)
+[01:48:09] [out] отправлен: .gitignore (437 байт)
+[01:48:09] [out] отправлен: ProjectSettings/Collision.config (649 байт)
+[01:48:09] [out] отправлен: ProjectSettings/Input.config (5038 байт)
+[01:48:09] [out] отправлен: ProjectSettings/Platform.config (244 байт)
+[01:48:09] [out] отправлен: Editor/Assembly.cs (114 байт)
+[01:48:09] [out] отправлен: Code/Assembly.cs (92 байт)
+[01:48:09] [live] слежу за Assets/scenes/minimal.scene
+[01:48:12] [delta] тик 300, tracked: 1, files seen: 1

@@ -2,8 +2,8 @@
   "profiles": {
     "Editor": {
       "commandName": "Executable",
-      "executablePath": "../../../../../../SteamLibrary/steamapps/common/sbox 590830/sbox-dev.exe",
-      "commandLineArgs": "-project \u0022A:\\s\u0026box projects\\edu\\Libraries\\teamcreate\\teamcreate.sbproj\u0022"
+      "executablePath": "../../../../../../../SteamLibrary/steamapps/common/sbox 590830/sbox-dev.exe",
+      "commandLineArgs": "-project \u0022A:\\s\u0026box projects\\test\\test\\Libraries\\teamcreate\\teamcreate.sbproj\u0022"
     }
   }
 }
